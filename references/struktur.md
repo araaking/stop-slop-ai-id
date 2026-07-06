@@ -135,3 +135,47 @@ Satu-dua konektor tidak masalah. Slopnya: setiap paragraf dibuka konektor sampai
 | Pasangan sinonim redundan: "efektif dan efisien", "aman dan nyaman", "cepat dan tepat", "baik dan benar", "tumbuh dan berkembang", "tugas dan tanggung jawab", "peran dan fungsi", "tips dan trik", "unik dan menarik", "mudah dan praktis" | Dua kata, satu makna. Pilih satu, atau ganti dengan fakta. |
 | Penguat kosong ("sangat", "benar-benar", "secara signifikan") | Penekanan hampa. Daftar lengkap di [frasa.md](frasa.md). |
 | "berbagai" / "beragam" / "sejumlah" tanpa rincian | Kabur. Sebutkan berapa dan apa saja. |
+
+## Heading Formulaik
+
+Judul yang mengikuti template yang bisa ditebak. Ciri artikel SEO dan blog AI.
+
+- "Pentingnya X dalam Y"
+- "Apa Itu X?" / "Apa yang Dimaksud dengan X?"
+- "Mengapa X Itu Penting"
+- "X: Panduan Lengkap" / "X: Panduan Komprehensif"
+- "X untuk Pemula"
+- "5 Tips X" / "7 Cara X" / "10 Kesalahan X yang Harus Dihindari"
+- "X vs Y: Mana yang Lebih Baik?"
+- "Bagaimana X Mengubah Y"
+
+Judul yang informatif menyebut subjek spesifik, bukan kategori. "Bagaimana Redis menggantikan Postgres di server X" mengalahkan "Pentingnya Database dalam Era Digital".
+
+## Heading Berlebihan
+
+Teks yang setiap 1-2 paragraf diberi heading baru. Heading harus menandai perubahan topik, bukan memotong paragraf.
+
+- Heading untuk satu paragraf
+- Heading untuk daftar yang cuma dua butir
+- Heading di setiap sub-bagian yang sebenarnya tidak punya sub-bagian
+
+**Ganti dengan:** paragraf mengalir. Pakai heading hanya saat topik bergeser. Kalau sebuah bagian hanya punya satu paragraf, biasanya tidak butuh heading.
+
+## Daftar Bullet Berlebihan
+
+Daftar berbutir untuk hal yang lebih baik ditulis satu-dua paragraf. Bullet cocok untuk enumerasi (langkah, opsi, komponen); buruk untuk menjelaskan satu konsep.
+
+- Bullet yang tiap butirnya cuma satu kata sifat (`Cepat. Murah. Mudah.`)
+- Bullet yang bisa digabung jadi satu kalimat tanpa kehilangan makna
+- Bullet yang fungsinya menjelaskan, bukan mendaftar
+
+**Ganti dengan:** paragraf. Bullet memaksa pemotongan yang seharusnya tidak ada. Kalau tetap mau daftar, pastikan tiap butir berdiri sendiri.
+
+## Daftar Tiga Butir + Bold
+
+Penguatan pola "daftar tiga butir" yang sudah dilarang: tiap butir ditegaskan dengan bold.
+
+- `**Cepat**, **murah**, dan **andal**.`
+- `**Kecepatan**, **akurasi**, dan **kepuasan pelanggan** adalah prioritas kami.`
+
+Bold tidak membuat tiga butir jadi kuat. Pilih satu atau dua butir. Kalau memang tiga, tulis apa yang membedakan ketiganya — kalau tidak, mengapa disebut bertiga?

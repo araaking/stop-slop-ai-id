@@ -45,11 +45,11 @@ stop-slop-id/
 
 ## Yang Ditangkap
 
-**Frasa terlarang** (`references/frasa.md`): pembuka basa-basi ("Berikut adalah", "Perlu diketahui bahwa"), pembuka zaman ("Di era digital saat ini"), penegas kosong ("Camkan itu"), penguat dan pelemah hampa ("sangat", "benar-benar", "cukup"), konstruksi "secara [sifat]", jargon bisnis ("menavigasi", "sinergi", "holistik"), bahasa birokrat ("dalam rangka", "adapun"), meta-komentar ("Yuk, simak penjelasannya!"), penutup klise ("Semoga bermanfaat!"), deklaratif kabur ("Dampaknya sangat besar").
+**Frasa terlarang** (`references/frasa.md`): pembuka basa-basi ("Berikut adalah", "Perlu diketahui bahwa"), pembuka zaman ("Di era digital saat ini"), penegas kosong ("Camkan itu"), penguat dan pelemah hampa ("sangat", "benar-benar", "cukup"), konstruksi "secara [sifat]", jargon bisnis ("menavigasi", "sinergi", "holistik"), bahasa birokrat ("dalam rangka", "adapun"), meta-komentar ("Yuk, simak penjelasannya!"), penutup klise ("Semoga bermanfaat!"), deklaratif kabur ("Dampaknya sangat besar"), dekorasi kosong (emoji beruntun, label `**Kesimpulan:**`, transisi "Hal ini menunjukkan bahwa..."), penutup TLDR yang cuma meringkas ulang.
 
-**Klise struktural** (`references/struktur.md`): kontras biner ("tidak hanya... tetapi juga"), daftar negatif, fragmentasi dramatis, setup retoris ("Pernahkah Anda...?"), agensi palsu ("keputusan itu muncul dengan sendirinya"), narator dari kejauhan ("Orang-orang cenderung..."), paragraf yang selalu dibuka konektor, pola ritme (daftar tiga butir, em-dash), kata ekstrem malas, pasangan sinonim redundan.
+**Klise struktural** (`references/struktur.md`): kontras biner ("tidak hanya... tetapi juga"), daftar negatif, fragmentasi dramatis, setup retoris ("Pernahkah Anda...?"), agensi palsu ("keputusan itu muncul dengan sendirinya"), narator dari kejauhan ("Orang-orang cenderung..."), paragraf yang selalu dibuka konektor, pola ritme (daftar tiga butir, em-dash, daftar tiga butir + bold), kata ekstrem malas, pasangan sinonim redundan, heading formulaik ("Pentingnya X", "Apa Itu X?"), heading berlebihan, daftar bullet untuk hal yang seharusnya paragraf.
 
-**Penyakit khas Indonesia** (`references/terjemahan-kaku.md`): "sebuah/seorang/para" berlebihan, "yang mana" dan "di mana" non-lokatif, pasif penghindar vs. pasif wajar, jiplakan idiom Inggris ("ketika berbicara tentang", "memainkan peran penting"), "melakukan/memberikan + nomina" ("melakukan analisis" → "menganalisis"), redundansi gramatikal ("adalah merupakan", "agar supaya"), "hal/tersebut" beruntun, konsistensi register (Anda/kamu/lo).
+**Penyakit khas Indonesia** (`references/terjemahan-kaku.md`): "sebuah/seorang/para" berlebihan, "yang mana" dan "di mana" non-lokatif, pasif penghindar vs. pasif wajar, jiplakan idiom Inggris ("ketika berbicara tentang", "memainkan peran penting"), "melakukan/memberikan + nomina" ("melakukan analisis" → "menganalisis"), redundansi gramatikal ("adalah merupakan", "agar supaya"), "hal/tersebut" beruntun, kata asing dalam tanda kutip ("trust", "impact", "engagement"), konsistensi register (Anda/kamu/lo).
 
 ## Penilaian
 
@@ -73,7 +73,7 @@ Di bawah 35/50: revisi.
 **Sesudah:**
 > "Rata-rata orang Indonesia membuka media sosial lebih dari tiga jam sehari."
 
-Sembilan contoh lain ada di `references/contoh.md`.
+Sebelas contoh lain ada di `references/contoh.md`.
 
 ## Kredit
 

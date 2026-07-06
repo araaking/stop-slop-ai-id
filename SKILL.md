@@ -33,6 +33,8 @@ Skill ini adaptasi dari stop-slop versi Inggris, bukan terjemahan mentah. Slop b
 
 9. **Coret kalimat pajangan.** Kalau bunyinya seperti kutipan motivasi untuk diunggah ke media sosial, tulis ulang jadi kalimat kerja biasa.
 
+10. **Buang dekorasi kosong.** Emoji beruntun, label `**Kesimpulan:**` / `**Catatan:**` / `**Tips:**` di depan kalimat, transisi kosong ("Hal ini menunjukkan bahwa...", "Dengan demikian, ..."), heading formulaik ("Pentingnya X", "Apa Itu X?"), dan penutup TLDR yang cuma meringkas ulang tidak menambah makna. Hapus, atau ganti dengan isinya. Lihat [references/frasa.md](references/frasa.md) dan [references/struktur.md](references/struktur.md).
+
 ## Pemeriksaan Cepat
 
 Sebelum menyerahkan tulisan:
@@ -53,6 +55,13 @@ Sebelum menyerahkan tulisan:
 - "Hal ini"/"hal tersebut" beruntun? Sebut bendanya langsung.
 - Penutup "Semoga bermanfaat", "Selamat mencoba", "tunggu apa lagi"? Hapus.
 - Register campur ("Anda" + "kamu" + "lo" dalam satu teks)? Pilih satu.
+- Emoji beruntun atau sebagai bullet? Buang.
+- Label bold + colon (`**Kesimpulan:**`, `**Catatan:**`, `**Tips:**`)? Buang labelnya.
+- "Hal ini menunjukkan bahwa..." / "Dengan demikian, ..." / "Dengan kata lain, ..."? Hapus atau gabung kalimat.
+- Heading "Pentingnya X", "Apa Itu X?", "5 Tips X", "X untuk Pemula"? Ganti judul spesifik.
+- Penutup "TLDR:" / "Kesimpulan:" yang cuma mengulang isi? Hapus.
+- Daftar bullet yang tiap butirnya satu kata sifat atau bisa digabung jadi satu kalimat? Tulis paragraf.
+- Kata Inggris dalam tanda kutip ("trust", "impact", "engagement")? Ganti dengan padanan Indonesia atau jelaskan konsepnya.
 
 ## Penilaian
 

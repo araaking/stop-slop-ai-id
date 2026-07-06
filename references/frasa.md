@@ -203,3 +203,58 @@ Mengumumkan kesulitan atau makna, bukan membuktikannya.
 - "yang sebenarnya penting"
 
 Tunjukkan kesulitannya lewat detail: apa yang gagal, berapa lama, siapa yang menyerah. Pembaca yang menyimpulkan sendiri bahwa itu sulit.
+
+## Hiasan Tipografi
+
+Tanda baca dan simbol yang dipakai sebagai dekorasi, bukan pembawa makna. Berlebihan jadi ciri generator.
+
+**Emoji beruntun:**
+
+- Lebih dari satu emoji di akhir kalimat atau paragraf (`...bermanfaat! ✨🚀💡`)
+- Emoji sebagai bullet point (`✅ Cepat, ✅ Mudah, ✅ Murah`)
+- Heading dengan emoji dekoratif (`💡 Tips Penting:`, `📌 Catatan:`)
+- Emoji di tengah kalimat untuk "menyoroti" (`solusi ✨ inovatif`)
+
+Emoji tunggal kadang sah (terutama di media sosial), tapi pakai hemat. Beruntun, sebagai bullet, atau di setiap heading adalah ciri tulisan yang dibikin dengan generator.
+
+**Bold + colon formatter:**
+
+Label diikuti penjelasan yang sudah jelas tanpa label.
+
+- `**Kesimpulan:** ...`
+- `**Catatan:** ...`
+- `**Penting:** ...`
+- `**Tips:** ...`
+- `**Pro:** ... **Kontra:** ...`
+- `**Fakta:** ...`
+- `**Intinya:** ...`
+
+Buang labelnya. "Kesimpulan: penjualan turun 18%" → "Penjualan turun 18%." Label tidak menambah struktur, hanya memotong kalimat.
+
+## Transisi Kosong
+
+Kalimat penghubung yang mengumumkan hubungan, bukan membangunnya.
+
+- "Hal ini menunjukkan bahwa..."
+- "Dari sini dapat dilihat bahwa..."
+- "Dengan demikian, ..."
+- "Artinya, ..."
+- "Yang dimaksud dengan X adalah..."
+- "Pada intinya, ..."
+- "Intinya adalah, ..."
+- "Dengan kata lain, ..." (saat kata-katanya tidak lain dari kata yang sudah ada)
+
+Kalau hubungan antar kalimat memang ada, pembaca merasakannya dari isi. Kalau tidak ada, transisi cuma menyembunyikan lompatan logika.
+
+## Penutup Ringkasan
+
+Bagian penutup yang cuma meringkas ulang isi yang sudah ada. Hapus, atau ganti dengan hal baru.
+
+- "TLDR:" / "TL;DR:" lalu daftar poin yang sudah ada
+- "Kesimpulan:" / "Kesimpulannya:" lalu mengulang argumen
+- "Ringkasan:" / "Inti sari:"
+- "Takeaway:" / "Pesan moral:"
+- "Sebagai penutup, ..."
+- "Penutup yang perlu diingat: ..."
+
+Paragraf terakhir seharusnya jadi pernyataan yang paling kuat, bukan yang paling lemah. Kalau penutup cuma restatement, lebih baik dipotong saja.

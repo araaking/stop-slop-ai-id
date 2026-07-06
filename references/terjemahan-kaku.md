@@ -108,6 +108,21 @@ Dua kata mengerjakan satu tugas.
 - "tersebut" lebih dari dua kali dalam satu paragraf → ganti dengan "itu", "-nya", atau nama bendanya.
 - Rantai "yang": "strategi yang efektif yang dirancang untuk pengguna yang aktif" → pecah jadi dua kalimat, atau buang salah satu keterangan.
 
+## Kata Asing dalam Tanda Kutip
+
+AI sering menaruh kata Inggris dalam tanda kutip untuk "menandai" bahwa itu konsep asing. Hasilnya tidak terasa seperti bahasa Indonesia.
+
+| Slop | Wajar |
+|------|-------|
+| konsep "trust" | kepercayaan, atau jelaskan konsepnya |
+| membangun "engagement" | membangun keterlibatan |
+| "impact" yang signifikan | dampak yang terasa |
+| mencari "traction" | menemukan pelanggan |
+| "mindset" yang berbeda | cara berpikir yang berbeda |
+| "user experience" yang baik | pengalaman pengguna yang baik |
+
+Kadang istilah Inggris memang lazim dan sulit diganti (UI, UX, ROI, sprint, deployment). Yang slop adalah kata-kata yang punya padanan Indonesia jelas tapi dikutip untuk menandai "ini konsep asing". Kata asing dalam tanda kutip sering muncul berpasangan dengan jargon ("membangun sinergi untuk meningkatkan 'impact' tim").
+
 ## Konsistensi Register
 
 AI suka mencampur register: "Anda" formal di satu kalimat, "kamu" akrab di kalimat berikutnya, kadang diselingi "kita" yang tiba-tiba merangkul. Campuran register dalam satu tulisan adalah ciri mesin.

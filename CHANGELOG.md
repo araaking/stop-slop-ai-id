@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-07-06 — 1.1.0
+
+Tambahan pola yang sebelumnya luput: dekorasi kosong, heading formulaik, dan kata asing dalam tanda kutip. Ini pembaruan quick-win, bukan rilis mayor.
+
+### Ditambahkan
+
+- `references/frasa.md`
+  - **Hiasan Tipografi**: emoji beruntun, emoji sebagai bullet, heading dengan emoji, label bold+colon formatter (`**Kesimpulan:**`, `**Catatan:**`, `**Tips:**`)
+  - **Transisi Kosong**: "Hal ini menunjukkan bahwa...", "Dengan demikian, ...", "Artinya, ...", "Dengan kata lain, ..." (saat kata-katanya tidak lain), "Yang dimaksud dengan X adalah..."
+  - **Penutup Ringkasan**: "TLDR:", "Kesimpulan:" yang cuma restatement, "Takeaway:", "Pesan moral:", "Sebagai penutup, ..."
+- `references/struktur.md`
+  - **Heading Formulaik**: "Pentingnya X dalam Y", "Apa Itu X?", "5 Tips X", "X untuk Pemula", "X vs Y: Mana yang Lebih Baik?", "Bagaimana X Mengubah Y"
+  - **Heading Berlebihan**: heading untuk satu paragraf, heading untuk daftar dua butir, heading tanpa sub-bagian nyata
+  - **Daftar Bullet Berlebihan**: bullet untuk hal yang seharusnya paragraf, bullet yang tiap butirnya satu kata sifat
+  - **Daftar Tiga Butir + Bold**: penguatan pola tiga butir dengan bold per item
+- `references/terjemahan-kaku.md`
+  - **Kata Asing dalam Tanda Kutip**: kata Inggris dikutip untuk menandai "konsep asing" ("trust", "impact", "engagement", "traction", "mindset")
+- `SKILL.md`: aturan inti #10 ("Buang dekorasi kosong"), delapan pemeriksaan cepat baru
+- `references/contoh.md`: Contoh 11 (transisi kosong + penutup TLDR + bold colon) dan Contoh 12 (heading formulaik + bullet pendek + bold tiga butir)
+
 ## 2026-07-06 — 1.0.0
 
 Rilis awal. Adaptasi bahasa Indonesia dari [stop-slop](https://github.com/hvpandya/stop-slop) karya Hardik Pandya.
