@@ -121,7 +121,11 @@ AI sering menaruh kata Inggris dalam tanda kutip untuk "menandai" bahwa itu kons
 | "mindset" yang berbeda | cara berpikir yang berbeda |
 | "user experience" yang baik | pengalaman pengguna yang baik |
 
-Kadang istilah Inggris memang lazim dan sulit diganti (UI, UX, ROI, sprint, deployment). Yang slop adalah kata-kata yang punya padanan Indonesia jelas tapi dikutip untuk menandai "ini konsep asing". Kata asing dalam tanda kutip sering muncul berpasangan dengan jargon ("membangun sinergi untuk meningkatkan 'impact' tim").
+Kadang istilah Inggris memang lazim dan sulit diganti (UI, UX, ROI, sprint, deployment, A/B test). Yang slop adalah kata-kata yang punya padanan Indonesia jelas tapi dikutip untuk menandai "ini konsep asing". Kata asing dalam tanda kutip sering muncul berpasangan dengan jargon ("membangun sinergi untuk meningkatkan 'impact' tim").
+
+**Yang jadi masalah adalah tanda kutipnya, bukan kata asingnya.** Kalau istilah itu sudah lazim dipakai di bidangnya (misalnya "engagement" di digital marketing, "retention" di produk, "deployment" di teknis), cukup hapus tanda kutipnya dan biarkan kata asingnya berdiri sendiri. Jangan paksa ganti ke padanan Indonesia yang malah terdengar kaku atau ambigu.
+
+**Uji:** baca kalimat itu tanpa tanda kutip. Kalau terdengar wajar, biarkan tanpa kutip. Kalau pembaca awam akan bingung, ganti dengan padanan Indonesia yang jelas, atau jelaskan konsepnya sekali di konteks.
 
 ## Konsistensi Register
 

@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-07-06 — 1.2.0
+
+Penyempurnaan aturan yang sudah ada: deduplikasi, pengecualian, dan nuansa. Bukan penambahan pola baru, melainkan memperhalus yang sudah ada supaya tidak over-edit tulisan yang sebenarnya baik.
+
+### Diubah
+
+- `SKILL.md`
+  - **Frontmatter description** ditambah klausa "serta dekorasi kosong seperti emoji berlebihan, label bold di depan kalimat, heading formulaik, dan penutup TLDR yang cuma mengulang isi"
+  - **Aturan #10**: contoh "Dengan demikian" dihapus (sudah ada di aturan #7), diganti cross-reference "(lihat aturan #7 soal pembuka paragraf konektor)"
+  - **Pemeriksaan Cepat** dirapikan: poin format (emoji, bold+colon, heading, TLDR, bullet) dipisah ke sub-grup bawah dengan mini-title **Format:**; poin non-format tetap di atas
+- `references/frasa.md`
+  - **Transisi Kosong**: sub-bagian baru "Kapan Transisi Masih Sah" — nuansa untuk "Dengan kata lain", "Artinya", "Pada intinya", "Dengan demikian" dengan uji hapus-kalimat
+- `references/struktur.md`
+  - **Heading Formulaik**: catatan SEO — heading tanya ("Apa Itu X?") boleh dipakai untuk artikel yang menarget pencarian Google, bukan tanda AI
+- `references/terjemahan-kaku.md`
+  - **Kata Asing dalam Tanda Kutip**: penjelasan baru "Yang jadi masalah adalah tanda kutipnya, bukan kata asingnya" + uji hapus-kutip; istilah lazim (engagement, retention, deployment) cukup hapus kutipnya, jangan paksa diganti
+- `references/contoh.md`
+  - **Contoh 11**: em-dash di versi "Sesudah" diganti koma (konsisten dengan aturan #7); ditambah catatan soal "retention" tanpa kutip
+  - **Contoh 12**: daftar tiga butir di versi "Sesudah" dipangkas jadi dua butir (konsisten dengan aturan #7 dan Pola Ritme)
+
 ## 2026-07-06 — 1.1.0
 
 Tambahan pola yang sebelumnya luput: dekorasi kosong, heading formulaik, dan kata asing dalam tanda kutip. Ini pembaruan quick-win, bukan rilis mayor.

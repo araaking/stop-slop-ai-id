@@ -237,14 +237,23 @@ Kalimat penghubung yang mengumumkan hubungan, bukan membangunnya.
 
 - "Hal ini menunjukkan bahwa..."
 - "Dari sini dapat dilihat bahwa..."
-- "Dengan demikian, ..."
-- "Artinya, ..."
+- "Dengan demikian, ..." (lihat juga aturan #7 di SKILL.md soal pembuka paragraf konektor)
 - "Yang dimaksud dengan X adalah..."
 - "Pada intinya, ..."
 - "Intinya adalah, ..."
-- "Dengan kata lain, ..." (saat kata-katanya tidak lain dari kata yang sudah ada)
+- "Dengan kata lain, ..." (saat kalimat sesudahnya cuma mengulang kalimat sebelumnya pakai kata lain)
+- "Artinya, ..." (saat tidak ada makna baru yang diturunkan)
 
 Kalau hubungan antar kalimat memang ada, pembaca merasakannya dari isi. Kalau tidak ada, transisi cuma menyembunyikan lompatan logika.
+
+### Kapan Transisi Masih Sah
+
+Bukan berarti semua transisi harus dibuang. Yang berikut masih wajar:
+
+- **"Dengan kata lain"** sah dipakai kalau kalimat sesudahnya benar-benar menyederhanakan sesuatu yang rumit (misalnya jargon teknis dijelaskan pakai bahasa awam). Jadi slop kalau kalimat sesudahnya cuma mengulang kalimat sebelumnya dengan kata lain. **Uji:** hapus kalimat setelah "dengan kata lain" — kalau tidak ada informasi yang hilang, hapus keduanya.
+- **"Artinya"** sah kalau menurunkan konsekuensi konkret dari pernyataan sebelumnya ("Harga naik 20%. Artinya, pelanggan lama akan berhenti beli."). Jadi slop kalau hanya menafsir ulang kalimat yang sudah jelas.
+- **"Pada intinya" / "Intinya"** sah sekali sebagai penanda kesimpulan di akhir bagian yang panjang. Jadi slop kalau muncul di setiap paragraf, atau kalau "intinya" yang dikatakan bukan inti apa pun.
+- **"Dengan demikian"** sah kalau menarik konsekuensi logis yang nyata ("Batas atas dihapus. Dengan demikian, tidak ada lagi pencegahan di sisi server."). Jadi slop kalau dipakai sebagai pengisi di awal paragraf tanpa benar-benar menyimpulkan apa pun.
 
 ## Penutup Ringkasan
 

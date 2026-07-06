@@ -1,6 +1,6 @@
 ---
 name: stop-slop-id
-description: Hilangkan pola tulisan AI (AI slop) dari prosa berbahasa Indonesia. Gunakan setiap kali menulis, menyunting, menerjemahkan ke, atau mereview teks berbahasa Indonesia dalam bentuk apa pun (artikel, esai, caption, naskah, email, laporan, copywriting), bahkan jika pengguna tidak menyebut "slop" secara eksplisit. Menangkap frasa klise ("tidak hanya... tetapi juga", "di era digital"), terjemahan kaku dari bahasa Inggris, kalimat pasif tanpa pelaku, pasangan sinonim redundan, jargon bisnis, dan struktur formulaik. Remove AI writing patterns from Indonesian prose; use whenever drafting, editing, or reviewing any Indonesian text.
+description: Hilangkan pola tulisan AI (AI slop) dari prosa berbahasa Indonesia. Gunakan setiap kali menulis, menyunting, menerjemahkan ke, atau mereview teks berbahasa Indonesia dalam bentuk apa pun (artikel, esai, caption, naskah, email, laporan, copywriting), bahkan jika pengguna tidak menyebut "slop" secara eksplisit. Menangkap frasa klise ("tidak hanya... tetapi juga", "di era digital"), terjemahan kaku dari bahasa Inggris, kalimat pasif tanpa pelaku, pasangan sinonim redundan, jargon bisnis, struktur formulaik, serta dekorasi kosong seperti emoji berlebihan, label bold di depan kalimat, heading formulaik, dan penutup TLDR yang cuma mengulang isi. Remove AI writing patterns from Indonesian prose; use whenever drafting, editing, or reviewing any Indonesian text.
 metadata:
   trigger: Menulis prosa, menyunting draf, atau mereview tulisan berbahasa Indonesia
   language: id
@@ -33,7 +33,7 @@ Skill ini adaptasi dari stop-slop versi Inggris, bukan terjemahan mentah. Slop b
 
 9. **Coret kalimat pajangan.** Kalau bunyinya seperti kutipan motivasi untuk diunggah ke media sosial, tulis ulang jadi kalimat kerja biasa.
 
-10. **Buang dekorasi kosong.** Emoji beruntun, label `**Kesimpulan:**` / `**Catatan:**` / `**Tips:**` di depan kalimat, transisi kosong ("Hal ini menunjukkan bahwa...", "Dengan demikian, ..."), heading formulaik ("Pentingnya X", "Apa Itu X?"), dan penutup TLDR yang cuma meringkas ulang tidak menambah makna. Hapus, atau ganti dengan isinya. Lihat [references/frasa.md](references/frasa.md) dan [references/struktur.md](references/struktur.md).
+10. **Buang dekorasi kosong.** Emoji beruntun, label `**Kesimpulan:**` / `**Catatan:**` / `**Tips:**` di depan kalimat, transisi kosong ("Hal ini menunjukkan bahwa...", "Artinya, ..."), heading formulaik ("Pentingnya X", "Apa Itu X?"), dan penutup TLDR yang cuma meringkas ulang tidak menambah makna. Hapus, atau ganti dengan isinya. Untuk konektor pembuka paragraf seperti "Dengan demikian", lihat aturan #7. Selengkapnya di [references/frasa.md](references/frasa.md) dan [references/struktur.md](references/struktur.md).
 
 ## Pemeriksaan Cepat
 
@@ -55,13 +55,16 @@ Sebelum menyerahkan tulisan:
 - "Hal ini"/"hal tersebut" beruntun? Sebut bendanya langsung.
 - Penutup "Semoga bermanfaat", "Selamat mencoba", "tunggu apa lagi"? Hapus.
 - Register campur ("Anda" + "kamu" + "lo" dalam satu teks)? Pilih satu.
-- Emoji beruntun atau sebagai bullet? Buang.
-- Label bold + colon (`**Kesimpulan:**`, `**Catatan:**`, `**Tips:**`)? Buang labelnya.
-- "Hal ini menunjukkan bahwa..." / "Dengan demikian, ..." / "Dengan kata lain, ..."? Hapus atau gabung kalimat.
-- Heading "Pentingnya X", "Apa Itu X?", "5 Tips X", "X untuk Pemula"? Ganti judul spesifik.
+- "Hal ini menunjukkan bahwa..." / "Artinya, ..." / "Dengan kata lain, ..." (yang cuma mengulang)? Hapus atau gabung kalimat.
+- Kata Inggris dalam tanda kutip ("trust", "impact")? Hapus kutipnya; ganti padanan hanya jika memang ada yang jelas.
+
+**Format:**
+
+- Emoji beruntun atau sebagai bullet? Hapus.
+- Label bold di depan kalimat (`**Kesimpulan:**`, `**Catatan:**`, `**Tips:**`)? Ganti kalimat biasa.
+- Heading gaya "Apa Itu X?" / "Pentingnya X" / "5 Tips X"? Pertimbangkan hindari (kecuali untuk SEO, lihat aturan #10 dan catatan di [references/struktur.md](references/struktur.md)).
 - Penutup "TLDR:" / "Kesimpulan:" yang cuma mengulang isi? Hapus.
 - Daftar bullet yang tiap butirnya satu kata sifat atau bisa digabung jadi satu kalimat? Tulis paragraf.
-- Kata Inggris dalam tanda kutip ("trust", "impact", "engagement")? Ganti dengan padanan Indonesia atau jelaskan konsepnya.
 
 ## Penilaian
 

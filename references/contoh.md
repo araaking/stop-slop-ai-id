@@ -126,9 +126,9 @@
 > "**Studi Kasus:** Pentingnya Kepemimpinan dalam Era Digital. Hal ini menunjukkan bahwa pemimpin yang baik harus mampu membangun 'trust' dengan timnya. Dengan demikian, organisasi akan mencapai hasil yang optimal. **Kesimpulan:** Kepemimpinan yang efektif adalah fondasi utama kesuksesan. TLDR: pemimpin baik, tim baik, hasil baik. Semoga bermanfaat! ✨🚀💡"
 
 **Sesudah:**
-> "Tim yang dipimpin Sari menutup kuartal dengan retention 94%—angka tertinggi sejak 2021. Sari tidak pakai jargon. Ia makan siang sama tim setiap Kamis dan menulis sendiri pesan kalau ada PHK. Itu yang orang ingat darinya, bukan visinya."
+> "Tim yang dipimpin Sari menutup kuartal dengan retention 94%, angka tertinggi sejak 2021. Sari tidak pakai jargon. Ia makan siang sama tim setiap Kamis dan menulis sendiri pesan kalau ada PHK. Itu yang orang ingat darinya, bukan visinya."
 
-**Perubahan:** heading formulaik dibongkar, transisi kosong ("Hal ini menunjukkan bahwa", "Dengan demikian") dibuang, label bold+colon dibuang, kata asing dalam tanda kutip ("trust") diganti isinya, penutup TLDR dan emoji beruntun dihapus, klaim "optimal" diganti angka konkret.
+**Perubahan:** heading formulaik dibongkar, transisi kosong ("Hal ini menunjukkan bahwa", "Dengan demikian") dibuang, label bold+colon dibuang, kata asing dalam tanda kutip ("trust") diganti isinya, penutup TLDR dan emoji beruntun dihapus, klaim "optimal" diganti angka konkret. Em-dash di kalimat pertama diganti koma (lihat aturan #7). "Retention" tetap dipakai tanpa kutip karena lazim di konteks produk.
 
 ---
 
@@ -150,6 +150,6 @@
 > Di era digital yang serba cepat ini, produktivitas menjadi kunci sukses. Dengan demikian, ..."
 
 **Sesudah:**
-> "Tiga hal yang biasanya membunuh produktivitas: buka 40 tab, gonta-ganti metode setiap Senin, dan tidak pernah istirahat. Hapus satu dari tiga, sisanya masih jalan."
+> "Dua hal yang biasanya membunuh produktivitas: buka 40 tab sekaligus, dan gonta-ganti metode setiap Senin. Hapus salah satu, sisanya masih jalan."
 
-**Perubahan:** heading formulaik ("5 Tips...", "Apa Itu...", "Mengapa...Penting") diganti judul yang informatif via kalimat, daftar bullet tiga butir (semuanya satu kata sifat) dipadatkan jadi satu kalimat, klaim generik diganti tiga penyebab konkret. Pembuka zaman di akhir dibuang.
+**Perubahan:** heading formulaik ("5 Tips...", "Apa Itu...", "Mengapa...Penting") diganti judul yang informatif via kalimat, daftar bullet tiga butir (semuanya satu kata sifat) dipangkas jadi dua penyebab konkret dalam satu kalimat, klaim generik diganti fakta. Pembuka zaman di akhir dibuang.

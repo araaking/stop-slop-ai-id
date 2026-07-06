@@ -151,6 +151,8 @@ Judul yang mengikuti template yang bisa ditebak. Ciri artikel SEO dan blog AI.
 
 Judul yang informatif menyebut subjek spesifik, bukan kategori. "Bagaimana Redis menggantikan Postgres di server X" mengalahkan "Pentingnya Database dalam Era Digital".
 
+**Catatan SEO:** aturan ini berlaku untuk esai dan prosa naratif. Untuk artikel yang sengaja menarget pencarian Google, heading tanya seperti "Apa Itu X?" atau "Mengapa X Penting?" boleh dipakai karena itu format yang ditarget mesin pencari — bukan tanda tulisan AI. Komprominya: judulnya boleh formulaik asalkan isinya tidak. Jangan pakai pengecualian ini sebagai alasan membuka tiap subbagian dengan "Apa Itu...?" — satu atau dua di seluruh artikel sudah cukup.
+
 ## Heading Berlebihan
 
 Teks yang setiap 1-2 paragraf diberi heading baru. Heading harus menandai perubahan topik, bukan memotong paragraf.
