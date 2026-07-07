@@ -68,6 +68,21 @@ Uji: kalau pembaca wajar bertanya "oleh siapa?" dan jawabannya penting tapi dise
 | "Tidak peduli seberapa..." (no matter how) | "Sekeras apa pun...", "Betapa pun..." |
 | "Yang perlu dilakukan hanyalah..." (all you have to do is) | langsung beri instruksinya |
 
+## Menghindari "Adalah": Kata Kerja Teatrikal
+
+Jiplakan pola Inggris "serves as / stands as / boasts": kata kerja panggung menggantikan "adalah" yang jujur, seolah-olah kalimat biasa kurang megah.
+
+| Teatrikal | Wajar |
+|-----------|-------|
+| "hadir sebagai solusi untuk..." | "adalah...", atau langsung sebut fungsinya |
+| "tampil sebagai salah satu pemain utama" | sebut posisinya dengan ukuran: "tiga besar berdasarkan..." |
+| "berdiri sebagai bukti..." | sebutkan faktanya |
+| "menjelma menjadi..." | "menjadi", atau sebut apa yang berubah |
+| "menyandang status sebagai..." | "adalah" |
+| "menawarkan berbagai fitur unggulan" | sebutkan fiturnya |
+
+"Merupakan" dan "menjadi" yang biasa tetap sah. Yang slop: kata kerja teatrikal yang menunda pembaca sampai ke isi.
+
 ## "Melakukan" dan "Memberikan" sebagai Kata Kerja Bantu
 
 Jiplakan pola Inggris "do/perform/give + noun". Bahasa Indonesia punya kata kerjanya langsung.

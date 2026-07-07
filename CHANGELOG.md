@@ -1,5 +1,40 @@
 # Changelog
 
+## 2026-07-07 — 2.0.0
+
+Rilis mayor: menyerap pola-pola dari [humanizer](https://github.com/blader/humanizer) karya Siqi Chen (berbasis Wikipedia "Signs of AI writing") yang belum tercakup, plus dua kemampuan baru — kalibrasi suara penulis dan batas keras anti-mengarang fakta. Pola bahasa Inggris yang tidak relevan untuk bahasa Indonesia sengaja tidak diserap (title case pada heading itu konvensi judul Indonesia yang sah; aturan tanda hubung kata majemuk dan curly quotes spesifik bahasa Inggris).
+
+### Ditambahkan
+
+- `references/suara.md` (file baru): kalibrasi suara dari sampel tulisan pengguna; "bersih belum tentu hidup" (menghidupkan teks steril untuk esai/opini); panduan anti-overkoreksi dengan prinsip gugusan ciri dan daftar yang BUKAN bukti AI; tanda tulisan manusia yang dipertahankan; teks yang tidak disentuh (kutipan langsung, nama resmi, istilah hukum, teks yang sedang dibahas)
+- `SKILL.md`
+  - **Cara Kerja**: tiga mode (menulis / menyunting / mereview), aturan "buang lemak bukan daging" untuk mode sunting, dan loop dua putaran ("apa yang masih bikin ini kedengaran AI?")
+  - **Batas Keras: Spesifik ≠ Mengarang**: larangan menciptakan angka/nama/sumber; alternatif: tanya pengguna, penanda `[butuh sumber]`, atau klaim jujur tanpa angka
+  - Aturan inti **#11** (sebut sumbernya) dan **#12** (hidupkan, jangan cuma sterilkan + anti-overkoreksi)
+  - 12 butir pemeriksaan cepat baru
+- `references/frasa.md`
+  - **Atribusi Kabur**: "para ahli sepakat", "banyak penelitian menunjukkan", "menurut sejumlah sumber" → sumber bernama atau `[butuh sumber]`
+  - **Spekulasi Penambal Celah**: "kemungkinan besar ia dibesarkan...", "tampaknya memilih menjaga privasi" → nyatakan yang tidak diketahui, atau potong
+  - **Signifikansi Menggelembung**: "menandai babak baru", "menjadi bukti nyata komitmen", "memainkan peran krusial", "tak lekang oleh waktu"
+  - **Bahasa Promosi**: "memukau", "wajib dikunjungi", "surga tersembunyi", "memanjakan lidah", "solusi terbaik untuk kebutuhan Anda"
+  - **Residu Chatbot**: "Tentu! Berikut...", "Semoga membantu!", "Beri tahu saya jika...", "Sebagai AI, saya..."
+- `references/struktur.md`
+  - **Rentang Palsu**: "mulai dari X hingga Y" tanpa skala nyata
+  - **Sinonim Bergilir**: pengguna → pemakai → konsumen → masyarakat digital untuk rujukan yang sama
+  - **Heading + Kalimat Pemanas**: heading diikuti kalimat yang mengulang heading
+  - **Formula Aforisme**: "X adalah mata uang Y", "X bukan sekadar alat, melainkan cermin"
+  - Nuansa di **Fragmentasi Dramatis**: satu kalimat pendek sah; slopnya rentetan
+- `references/terjemahan-kaku.md`
+  - **Menghindari "Adalah": Kata Kerja Teatrikal**: "hadir sebagai", "berdiri sebagai", "menjelma menjadi", "menyandang status sebagai" (padanan copula avoidance / "serves as")
+- `references/contoh.md`
+  - Catatan integritas fakta di awal file (angka contoh = ilustrasi, bukan izin mengarang)
+  - **Contoh 13** (atribusi kabur + signifikansi menggelembung), **Contoh 14** (menyunting tanpa mengamputasi: cakupan dan panjang dipertahankan), **Contoh 15** (bersih tapi mati vs bernyawa)
+
+### Diubah
+
+- Frontmatter `SKILL.md`: description ditambah pemicu "humanize" / "biar gak kedengaran kayak AI" / peniruan gaya dari sampel + pola-pola baru; field `version: 2.0.0`; `adapted_from` ditambah kredit humanizer
+- `README.md`: struktur file, daftar "Yang Ditangkap", bagian baru "Suara & batas penyuntingan" dan "Batas keras", jumlah contoh, kredit
+
 ## 2026-07-06 — 1.2.0
 
 Penyempurnaan aturan yang sudah ada: deduplikasi, pengecualian, dan nuansa. Bukan penambahan pola baru, melainkan memperhalus yang sudah ada supaya tidak over-edit tulisan yang sebenarnya baik.

@@ -27,7 +27,8 @@ stop-slop-id/
 │   ├── frasa.md                # Frasa yang harus dihapus
 │   ├── struktur.md             # Pola struktural yang harus dihindari
 │   ├── terjemahan-kaku.md      # Anglicisme, aturan pasif, register
-│   └── contoh.md               # 10 transformasi sebelum/sesudah
+│   ├── suara.md                # Kalibrasi suara penulis & batas penyuntingan
+│   └── contoh.md               # 15 transformasi sebelum/sesudah
 ├── README.md
 ├── CHANGELOG.md
 └── LICENSE
@@ -45,11 +46,15 @@ stop-slop-id/
 
 ## Yang Ditangkap
 
-**Frasa terlarang** (`references/frasa.md`): pembuka basa-basi ("Berikut adalah", "Perlu diketahui bahwa"), pembuka zaman ("Di era digital saat ini"), penegas kosong ("Camkan itu"), penguat dan pelemah hampa ("sangat", "benar-benar", "cukup"), konstruksi "secara [sifat]", jargon bisnis ("menavigasi", "sinergi", "holistik"), bahasa birokrat ("dalam rangka", "adapun"), meta-komentar ("Yuk, simak penjelasannya!"), penutup klise ("Semoga bermanfaat!"), deklaratif kabur ("Dampaknya sangat besar"), dekorasi kosong (emoji beruntun, label `**Kesimpulan:**`, transisi "Hal ini menunjukkan bahwa..."), penutup TLDR yang cuma meringkas ulang.
+**Frasa terlarang** (`references/frasa.md`): pembuka basa-basi ("Berikut adalah", "Perlu diketahui bahwa"), pembuka zaman ("Di era digital saat ini"), penegas kosong ("Camkan itu"), penguat dan pelemah hampa ("sangat", "benar-benar", "cukup"), konstruksi "secara [sifat]", jargon bisnis ("menavigasi", "sinergi", "holistik"), bahasa birokrat ("dalam rangka", "adapun"), meta-komentar ("Yuk, simak penjelasannya!"), penutup klise ("Semoga bermanfaat!"), deklaratif kabur ("Dampaknya sangat besar"), dekorasi kosong (emoji beruntun, label `**Kesimpulan:**`, transisi "Hal ini menunjukkan bahwa..."), penutup TLDR yang cuma meringkas ulang, atribusi kabur ("para ahli sepakat", "banyak penelitian menunjukkan"), spekulasi penambal celah ("kemungkinan besar ia..."), signifikansi menggelembung ("menandai babak baru", "memainkan peran krusial"), bahasa promosi ("memukau", "wajib dikunjungi", "surga tersembunyi"), residu chatbot ("Tentu! Berikut...", "Semoga membantu!").
 
-**Klise struktural** (`references/struktur.md`): kontras biner ("tidak hanya... tetapi juga"), daftar negatif, fragmentasi dramatis, setup retoris ("Pernahkah Anda...?"), agensi palsu ("keputusan itu muncul dengan sendirinya"), narator dari kejauhan ("Orang-orang cenderung..."), paragraf yang selalu dibuka konektor, pola ritme (daftar tiga butir, em-dash, daftar tiga butir + bold), kata ekstrem malas, pasangan sinonim redundan, heading formulaik ("Pentingnya X", "Apa Itu X?"), heading berlebihan, daftar bullet untuk hal yang seharusnya paragraf.
+**Klise struktural** (`references/struktur.md`): kontras biner ("tidak hanya... tetapi juga"), daftar negatif, fragmentasi dramatis, setup retoris ("Pernahkah Anda...?"), agensi palsu ("keputusan itu muncul dengan sendirinya"), narator dari kejauhan ("Orang-orang cenderung..."), paragraf yang selalu dibuka konektor, pola ritme (daftar tiga butir, em-dash, daftar tiga butir + bold), kata ekstrem malas, pasangan sinonim redundan, heading formulaik ("Pentingnya X", "Apa Itu X?"), heading berlebihan, heading + kalimat pemanas, daftar bullet untuk hal yang seharusnya paragraf, rentang palsu ("mulai dari X hingga Y" tanpa skala nyata), sinonim bergilir (satu benda dipanggil empat nama), formula aforisme ("X adalah mata uang Y").
 
-**Penyakit khas Indonesia** (`references/terjemahan-kaku.md`): "sebuah/seorang/para" berlebihan, "yang mana" dan "di mana" non-lokatif, pasif penghindar vs. pasif wajar, jiplakan idiom Inggris ("ketika berbicara tentang", "memainkan peran penting"), "melakukan/memberikan + nomina" ("melakukan analisis" → "menganalisis"), redundansi gramatikal ("adalah merupakan", "agar supaya"), "hal/tersebut" beruntun, kata asing dalam tanda kutip ("trust", "impact", "engagement"), konsistensi register (Anda/kamu/lo).
+**Penyakit khas Indonesia** (`references/terjemahan-kaku.md`): "sebuah/seorang/para" berlebihan, "yang mana" dan "di mana" non-lokatif, pasif penghindar vs. pasif wajar, jiplakan idiom Inggris ("ketika berbicara tentang", "memainkan peran penting"), "melakukan/memberikan + nomina" ("melakukan analisis" → "menganalisis"), redundansi gramatikal ("adalah merupakan", "agar supaya"), "hal/tersebut" beruntun, kata asing dalam tanda kutip ("trust", "impact", "engagement"), konsistensi register (Anda/kamu/lo), kata kerja teatrikal pengganti "adalah" ("hadir sebagai", "berdiri sebagai").
+
+**Suara & batas penyuntingan** (`references/suara.md`): kalibrasi suara dari sampel tulisan pengguna, menghidupkan teks yang bersih tapi mati (pendapat, keraguan jujur, ritme), panduan anti-overkoreksi (cari gugusan ciri, bukan satu ciri), tanda tulisan manusia yang harus dipertahankan, dan teks yang tidak boleh disentuh (kutipan langsung, nama resmi, istilah hukum).
+
+**Batas keras**: spesifik bukan berarti mengarang. Skill ini melarang menciptakan angka, nama, atau sumber yang tidak ada di bahan — klaim tanpa sumber diturunkan atau ditandai `[butuh sumber]`, bukan dikarang.
 
 ## Penilaian
 
@@ -73,11 +78,11 @@ Di bawah 35/50: revisi.
 **Sesudah:**
 > "Rata-rata orang Indonesia membuka media sosial lebih dari tiga jam sehari."
 
-Sebelas contoh lain ada di `references/contoh.md`.
+Empat belas contoh lain ada di `references/contoh.md`.
 
 ## Kredit
 
-Adaptasi bahasa Indonesia dari [stop-slop](https://github.com/hvpandya/stop-slop) karya [Hardik Pandya](https://hvpandya.com).
+Adaptasi bahasa Indonesia dari [stop-slop](https://github.com/hvpandya/stop-slop) karya [Hardik Pandya](https://hvpandya.com). Sebagian pola versi 2.0 (atribusi kabur, signifikansi menggelembung, bahasa promosi, rentang palsu, sinonim bergilir, residu chatbot, kalibrasi suara, panduan anti-overkoreksi) diadaptasi dari [humanizer](https://github.com/blader/humanizer) karya Siqi Chen, yang berbasis halaman Wikipedia "Signs of AI writing".
 
 ## Lisensi
 

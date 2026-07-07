@@ -1,10 +1,11 @@
 ---
 name: stop-slop-id
-description: Hilangkan pola tulisan AI (AI slop) dari prosa berbahasa Indonesia. Gunakan setiap kali menulis, menyunting, menerjemahkan ke, atau mereview teks berbahasa Indonesia dalam bentuk apa pun (artikel, esai, caption, naskah, email, laporan, copywriting), bahkan jika pengguna tidak menyebut "slop" secara eksplisit. Menangkap frasa klise ("tidak hanya... tetapi juga", "di era digital"), terjemahan kaku dari bahasa Inggris, kalimat pasif tanpa pelaku, pasangan sinonim redundan, jargon bisnis, struktur formulaik, serta dekorasi kosong seperti emoji berlebihan, label bold di depan kalimat, heading formulaik, dan penutup TLDR yang cuma mengulang isi. Remove AI writing patterns from Indonesian prose; use whenever drafting, editing, or reviewing any Indonesian text.
+description: Hilangkan pola tulisan AI (AI slop) dari prosa berbahasa Indonesia dan buat teks terdengar ditulis manusia. Gunakan setiap kali menulis, menyunting, menerjemahkan ke, atau mereview teks berbahasa Indonesia apa pun (artikel, esai, caption, naskah, email, laporan, copywriting), meski pengguna tidak menyebut "slop" — termasuk permintaan "humanize", "biar gak kedengaran kayak AI", "bikin lebih natural", atau meniru gaya dari sampel tulisan pengguna. Menangkap frasa klise ("tidak hanya... tetapi juga", "di era digital"), terjemahan kaku, pasif tanpa pelaku, atribusi kabur ("para ahli sepakat"), signifikansi menggelembung ("menandai babak baru"), bahasa promosi, angka/sumber karangan, residu chatbot ("Semoga membantu!"), sinonim redundan, jargon bisnis, struktur formulaik, dan dekorasi kosong (emoji beruntun, label bold, heading formulaik, penutup TLDR). Remove AI writing patterns from Indonesian prose and humanize AI-sounding text; use when drafting, editing, or reviewing any Indonesian text.
 metadata:
+  version: 2.0.0
   trigger: Menulis prosa, menyunting draf, atau mereview tulisan berbahasa Indonesia
   language: id
-  adapted_from: stop-slop oleh Hardik Pandya (https://hvpandya.com)
+  adapted_from: stop-slop oleh Hardik Pandya (https://hvpandya.com); sebagian pola dari humanizer oleh Siqi Chen (https://github.com/blader/humanizer) yang berbasis Wikipedia "Signs of AI writing"
 ---
 
 # Stop Slop (Bahasa Indonesia)
@@ -12,6 +13,24 @@ metadata:
 Hilangkan pola tulisan AI yang mudah ditebak dari prosa berbahasa Indonesia.
 
 Skill ini adaptasi dari stop-slop versi Inggris, bukan terjemahan mentah. Slop berbahasa Indonesia punya penyakit sendiri: terjemahan kaku dari bahasa Inggris, pasif birokratis yang menyembunyikan pelaku, pasangan sinonim redundan, dan penutup blog klise. Aturan di bawah menangani keduanya, pola universal dan pola khas Indonesia.
+
+## Cara Kerja
+
+Tentukan dulu mode dari permintaan pengguna:
+
+1. **Menulis baru** — terapkan semua aturan sejak draf pertama. Panjang mengikuti kebutuhan isi.
+2. **Menyunting draf** — buang slopnya, pertahankan cakupannya. Kalau draf aslinya lima paragraf berisi lima gagasan, hasil suntingan tetap membawa kelima gagasan itu; boleh lebih padat, tapi tidak boleh ada isi yang hilang. Menyunting berarti membuang lemak, bukan memotong daging. Ikuti suara penulisnya: kalau pengguna memberi sampel tulisannya, baca dan tiru gayanya. Lihat [references/suara.md](references/suara.md).
+3. **Mereview** — laporkan pola yang ditemukan beserta lokasinya. Jangan menulis ulang kecuali diminta.
+
+Untuk teks yang panjang atau penting, kerjakan dua putaran: tulis draf, lalu tanya diri sendiri "apa yang masih bikin teks ini kedengaran seperti AI?", dan bereskan sisa temuannya sebelum diserahkan.
+
+## Batas Keras: Spesifik ≠ Mengarang
+
+Aturan "ganti klaim kabur dengan angka" bukan izin menciptakan angka. Kalau data, nama, kutipan, atau sumber tidak tersedia dari pengguna atau bahan yang diberikan:
+
+- Jangan tulis angka fiktif ("naik 40%") atau sumber fiktif ("menurut studi Harvard 2023"). Tulisan bebas slop tapi berisi fakta palsu lebih buruk daripada slop.
+- Pilih salah satu: tanya pengguna, pakai penanda `[angka]` / `[butuh sumber]`, atau tulis klaim jujur tanpa angka ("penjualan turun" jujur; "penjualan turun 18%" yang dikarang adalah kebohongan).
+- Angka pada [references/contoh.md](references/contoh.md) hanya ilustrasi teknik, bukan ajakan mengarang.
 
 ## Aturan Inti
 
@@ -35,6 +54,10 @@ Skill ini adaptasi dari stop-slop versi Inggris, bukan terjemahan mentah. Slop b
 
 10. **Buang dekorasi kosong.** Emoji beruntun, label `**Kesimpulan:**` / `**Catatan:**` / `**Tips:**` di depan kalimat, transisi kosong ("Hal ini menunjukkan bahwa...", "Artinya, ..."), heading formulaik ("Pentingnya X", "Apa Itu X?"), dan penutup TLDR yang cuma meringkas ulang tidak menambah makna. Hapus, atau ganti dengan isinya. Untuk konektor pembuka paragraf seperti "Dengan demikian", lihat aturan #7. Selengkapnya di [references/frasa.md](references/frasa.md) dan [references/struktur.md](references/struktur.md).
 
+11. **Sebut sumbernya.** Atribusi kabur ("para ahli sepakat", "banyak penelitian menunjukkan", "menurut sejumlah sumber") diganti sumber bernama: siapa, kapan. Signifikansi menggelembung ("menandai babak baru", "memainkan peran krusial") diganti kejadiannya. Tidak punya sumber? Turunkan klaim atau tandai `[butuh sumber]` — jangan karang (lihat Batas Keras). Lihat [references/frasa.md](references/frasa.md).
+
+12. **Hidupkan, jangan cuma sterilkan.** Teks yang lolos semua aturan di atas masih bisa mati: semua kalimat seragam, tanpa pendirian, tanpa penulis di baliknya. Untuk esai, blog, dan opini, beri sudut pandang dan biarkan sedikit berantakan; untuk dokumentasi, berita lugas, dan teks hukum, netral memang suara yang benar. Jangan pula overkoreksi tulisan manusia yang sehat: cari gugusan ciri, bukan satu ciri. Lihat [references/suara.md](references/suara.md).
+
 ## Pemeriksaan Cepat
 
 Sebelum menyerahkan tulisan:
@@ -57,12 +80,22 @@ Sebelum menyerahkan tulisan:
 - Register campur ("Anda" + "kamu" + "lo" dalam satu teks)? Pilih satu.
 - "Hal ini menunjukkan bahwa..." / "Artinya, ..." / "Dengan kata lain, ..." (yang cuma mengulang)? Hapus atau gabung kalimat.
 - Kata Inggris dalam tanda kutip ("trust", "impact")? Hapus kutipnya; ganti padanan hanya jika memang ada yang jelas.
+- Atribusi kabur ("para ahli", "banyak studi menunjukkan")? Sebut siapa dan kapan, atau turunkan klaimnya.
+- Ada angka, nama, atau sumber yang tidak ada di bahan? Hapus atau tandai `[butuh sumber]`. Jangan karang.
+- "Menandai babak baru" / "memainkan peran krusial" / "menjadi bukti komitmen"? Ganti kejadian konkretnya.
+- "Hadir sebagai" / "berdiri sebagai" / "menjelma menjadi"? Ganti "adalah", atau sebut fungsinya.
+- "Mulai dari X hingga Y" yang bukan skala nyata? Sebut daftarnya langsung.
+- Satu benda dipanggil tiga nama berbeda (pengguna/pemakai/konsumen)? Pilih satu, ulangi saja.
+- Residu chatbot ("Tentu! Berikut...", "Semoga membantu!", "Beri tahu saya jika...")? Hapus.
+- Nada brosur di teks non-iklan ("memukau", "wajib dikunjungi", "surga tersembunyi")? Ganti fakta.
+- Kalau menyunting: ada gagasan dari draf asli yang hilang? Kembalikan.
 
 **Format:**
 
 - Emoji beruntun atau sebagai bullet? Hapus.
 - Label bold di depan kalimat (`**Kesimpulan:**`, `**Catatan:**`, `**Tips:**`)? Ganti kalimat biasa.
 - Heading gaya "Apa Itu X?" / "Pentingnya X" / "5 Tips X"? Pertimbangkan hindari (kecuali untuk SEO, lihat aturan #10 dan catatan di [references/struktur.md](references/struktur.md)).
+- Heading diikuti satu kalimat pemanas yang cuma mengulang heading? Hapus kalimatnya.
 - Penutup "TLDR:" / "Kesimpulan:" yang cuma mengulang isi? Hapus.
 - Daftar bullet yang tiap butirnya satu kata sifat atau bisa digabung jadi satu kalimat? Tulis paragraf.
 
@@ -86,4 +119,4 @@ Lihat [references/contoh.md](references/contoh.md) untuk transformasi sebelum/se
 
 ## Lisensi
 
-MIT. Adaptasi dari [stop-slop](https://github.com/hvpandya/stop-slop) karya Hardik Pandya.
+MIT. Adaptasi dari [stop-slop](https://github.com/hvpandya/stop-slop) karya Hardik Pandya. Sebagian pola (atribusi kabur, signifikansi menggelembung, bahasa promosi, rentang palsu, sinonim bergilir, residu chatbot, kalibrasi suara, panduan anti-overkoreksi) diadaptasi dari [humanizer](https://github.com/blader/humanizer) karya Siqi Chen, yang berbasis halaman Wikipedia "Signs of AI writing".

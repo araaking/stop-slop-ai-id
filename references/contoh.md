@@ -1,5 +1,7 @@
 # Contoh Sebelum/Sesudah
 
+> **Catatan:** angka, nama, dan sumber pada kolom "Sesudah" adalah ilustrasi teknik (mengganti klaim kabur dengan fakta), bukan data sungguhan. Saat mengerjakan teks nyata, ambil angka dari bahan pengguna. Kalau bahannya tidak ada: tanya, pakai penanda `[angka]` / `[butuh sumber]`, atau tulis klaim jujur tanpa angka. Lihat "Batas Keras" di SKILL.md.
+
 ## Contoh 1: Pembuka Zaman + Jargon + Pasangan Sinonim
 
 **Sebelum:**
@@ -153,3 +155,45 @@
 > "Dua hal yang biasanya membunuh produktivitas: buka 40 tab sekaligus, dan gonta-ganti metode setiap Senin. Hapus salah satu, sisanya masih jalan."
 
 **Perubahan:** heading formulaik ("5 Tips...", "Apa Itu...", "Mengapa...Penting") diganti judul yang informatif via kalimat, daftar bullet tiga butir (semuanya satu kata sifat) dipangkas jadi dua penyebab konkret dalam satu kalimat, klaim generik diganti fakta. Pembuka zaman di akhir dibuang.
+
+---
+
+## Contoh 13: Atribusi Kabur + Signifikansi Menggelembung
+
+**Sebelum:**
+> "Para ahli sepakat bahwa kehadiran aplikasi Bayarin menandai babak baru dalam dunia fintech tanah air. Sejumlah penelitian menunjukkan bahwa digitalisasi memainkan peran krusial dalam meningkatkan inklusi keuangan masyarakat."
+
+**Sesudah:**
+> "Bayarin memangkas pembukaan rekening dari dua hari menjadi sepuluh menit. Sejak fitur verifikasi daringnya rilis Maret, 40 ribu rekening baru dibuka dari kabupaten yang belum punya kantor cabang bank."
+
+**Perubahan:** "para ahli sepakat" dan "sejumlah penelitian" dibuang karena tidak menunjuk siapa pun; "menandai babak baru" dan "peran krusial" diganti mekanisme dan hasil terukur. Kalau di pekerjaan nyata angka seperti itu tidak ada di bahan, jangan dikarang: tulis "Bayarin memangkas pembukaan rekening dari dua hari menjadi `[durasi]`" lalu tanyakan ke pengguna, atau pertahankan klaim yang bisa dipertanggungjawabkan saja.
+
+---
+
+## Contoh 14: Menyunting Tanpa Mengamputasi
+
+Contoh 1-13 sengaja memampatkan agar tekniknya terlihat. Saat menyunting draf milik orang, cakupan dipertahankan: lima gagasan masuk, lima gagasan keluar.
+
+**Sebelum (draf pengguna, dua paragraf, lima gagasan):**
+> "Di era digital yang serba cepat ini, bekerja dari rumah telah menjadi sebuah tren yang tidak dapat dipungkiri. Tidak hanya memberikan fleksibilitas, tetapi juga meningkatkan keseimbangan antara pekerjaan dan kehidupan pribadi. Namun demikian, perlu diketahui bahwa bekerja dari rumah juga memiliki berbagai tantangan yang perlu dihadapi secara efektif dan efisien.
+>
+> Salah satu tantangan yang paling utama adalah komunikasi. Hal ini disebabkan karena koordinasi menjadi lebih sulit dilakukan. Oleh karena itu, penting untuk melakukan pengaturan jadwal rapat yang terstruktur dan memberikan dukungan kepada anggota tim agar produktivitas tetap terjaga."
+
+**Sesudah (tetap dua paragraf, lima gagasan utuh):**
+> "Bekerja dari rumah memberi fleksibilitas: kamu yang mengatur jam kerja di sekitar urusan rumah, bukan sebaliknya, dan batas antara kantor dan hidup pribadi jadi lebih mudah dijaga. Tapi kemudahannya datang dengan tantangan yang jarang dibahas di lowongan kerja.
+>
+> Yang paling terasa: komunikasi. Obrolan pantry yang dulu menyelesaikan salah paham dalam dua menit kini jadi rantai pesan seharian. Jadwalkan rapat singkat di jam yang sama tiap hari, dan pastikan tiap orang tahu harus bertanya ke siapa saat macet; koordinasi rapi begitu yang menjaga produktivitas tim."
+
+**Perubahan:** semua gagasan asli (fleksibilitas, keseimbangan, ada tantangan, komunikasi sulit, solusi jadwal + dukungan tim) tetap ada dengan panjang setara. Yang hilang hanya slopnya: pembuka zaman, kontras biner, "perlu diketahui", pasangan sinonim, "melakukan pengaturan", "memberikan dukungan", transisi kosong. Menyunting berarti membuang lemak, bukan memotong daging.
+
+---
+
+## Contoh 15: Bersih Tapi Mati vs Bernyawa
+
+**Sebelum (lolos semua aturan, tapi tanpa penulis di baliknya):**
+> "Percobaan itu menghasilkan tiga juta baris kode dalam semalam. Sebagian developer terkesan, sebagian skeptis. Implikasinya belum jelas."
+
+**Sesudah (untuk esai/opini):**
+> "Tiga juta baris kode, ditulis agen AI semalaman waktu semua orang tidur. Saya masih belum tahu harus kagum atau ngeri. Separuh komunitas developer heboh, separuh lagi sibuk menjelaskan kenapa itu 'tidak dihitung'. Kebenarannya mungkin membosankan dan ada di tengah-tengah. Tapi bayangan agen-agen itu bekerja sepanjang malam belum hilang dari kepala saya."
+
+**Perubahan:** versi pertama sudah bersih dari slop, tapi kalimatnya seragam dan tidak ada yang bertanggung jawab atas pendapatnya. Versi kedua menambah sudut pandang, keraguan yang jujur, dan ritme yang berubah-ubah. Catatan: ini berlaku untuk esai, blog, dan opini. Untuk berita lugas atau dokumentasi, versi pertama justru yang benar. Lihat [suara.md](suara.md).

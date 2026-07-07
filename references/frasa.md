@@ -131,6 +131,23 @@ Ganti dengan bahasa lugas. Jargon Inggris mentah dan jiplakannya sama-sama slop 
 | memberdayakan (kabur) | sebutkan apa yang kini bisa dilakukan orang itu |
 | akselerasi / mengakselerasi | mempercepat; lebih baik: sebut dari berapa jadi berapa |
 
+## Bahasa Promosi
+
+Nada brosur yang menyusup ke teks yang seharusnya netral. Umum di artikel wisata, kuliner, review produk, dan profil daerah hasil AI.
+
+- "memukau" / "menakjubkan" / "memesona"
+- "wajib dikunjungi" / "tak boleh dilewatkan"
+- "surga tersembunyi" / "hidden gem"
+- "memanjakan lidah" / "memanjakan mata"
+- "pengalaman tak terlupakan"
+- "destinasi impian"
+- "kaya akan budaya dan keindahan alam"
+- "berpadu sempurna"
+- "solusi terbaik untuk kebutuhan Anda"
+- "tak perlu khawatir lagi"
+
+**Ganti dengan:** fakta yang membuat pembaca menilai sendiri: apa yang ada di sana, berapa harganya, apa yang membedakannya dari tetangganya. Kalau teksnya memang iklan yang diminta pengguna, tetap tunjukkan bukti — "antre 40 menit tiap Sabtu" menjual lebih keras daripada "wajib dikunjungi".
+
 ## Bahasa Birokrat
 
 Kata sambung dan pengantar gaya surat dinas menggemukkan kalimat.
@@ -178,6 +195,21 @@ Ciri paling gampang dikenali dari artikel hasil AI berbahasa Indonesia. Hapus se
 - "Pilihan ada di tangan Anda."
 - "Kesimpulannya, ..." (lalu hanya mengulang isi tanpa hal baru)
 
+## Residu Chatbot
+
+Kalimat percakapan asisten yang ikut tersalin ke konten. Tanda paling telanjang bahwa teks datang dari kotak chat.
+
+- "Tentu! Berikut artikelnya:"
+- "Semoga membantu!"
+- "Jangan ragu untuk bertanya."
+- "Beri tahu saya jika ada yang perlu diubah, ya!"
+- "Apakah Anda ingin saya melanjutkan?"
+- "Ingin saya buatkan versi yang lebih panjang?"
+- "Sebagai AI, saya..."
+- "Berdasarkan informasi hingga [tanggal], ..."
+
+Hapus semuanya. Konten dimulai dari kalimat pertama yang membahas topik, dan berakhir di kalimat terakhir yang masih membahas topik.
+
 ## Deklaratif Kabur
 
 Kalimat yang mengumumkan bobot tanpa menyebut isinya. Hapus, atau ganti dengan hal spesifiknya.
@@ -192,6 +224,49 @@ Kalimat yang mengumumkan bobot tanpa menyebut isinya. Hapus, atau ganti dengan h
 - "Ini masalah yang jauh lebih dalam."
 
 Kalau sebuah kalimat menyebut sesuatu itu penting/dalam/struktural tanpa menunjukkan barangnya, potong kalimat itu atau ganti dengan barangnya.
+
+## Atribusi Kabur
+
+Klaim dititipkan ke otoritas tanpa nama. Terlihat berbobot, tidak bisa diperiksa siapa pun.
+
+- "Para ahli sepakat bahwa..."
+- "Banyak penelitian menunjukkan..."
+- "Studi membuktikan..." (tanpa menyebut studi yang mana)
+- "Menurut sejumlah sumber, ..."
+- "Banyak orang percaya..."
+- "Pengamat menilai..."
+- "Sudah menjadi rahasia umum bahwa..."
+- "Data menunjukkan..." (tanpa datanya)
+
+**Ganti dengan:** sumber bernama: siapa, kapan, di mana. "Survei APJII 2024 mencatat..." mengalahkan "banyak penelitian menunjukkan". Kalau sumbernya tidak ada di bahan, **jangan mengarang nama lembaga, jurnal, atau angka** — itu pelanggaran Batas Keras di SKILL.md. Turunkan klaimnya ("beberapa pelanggan kami melaporkan..."), tandai `[butuh sumber]`, atau buang kalimatnya.
+
+## Spekulasi Penambal Celah
+
+Saat data tidak ada, AI menulis paragraf tentang ketiadaan data, lalu mengisi celahnya dengan tebakan berbaju fakta.
+
+- "Informasi mengenai kehidupan awalnya terbatas, yang menunjukkan bahwa ia menjaga privasinya."
+- "Kemungkinan besar ia dibesarkan di keluarga sederhana, yang kelak membentuk..."
+- "Meski tidak banyak terdokumentasi, diperkirakan..."
+- "Tampaknya ia memilih menjauh dari sorotan publik."
+
+**Ganti dengan:** nyatakan apa yang tidak diketahui dalam satu kalimat ("Tidak ada catatan publik tentang masa kecilnya"), atau potong bagiannya sama sekali. Tebakan yang ditulis seperti fakta bukan gaya penulisan; itu halusinasi.
+
+## Signifikansi Menggelembung
+
+Peristiwa biasa dipompa jadi tonggak sejarah. Ciri artikel profil, rilis pers, dan company profile hasil AI.
+
+- "menandai babak baru dalam..."
+- "menjadi tonggak penting..."
+- "membuka lembaran baru..."
+- "menjadi bukti nyata komitmen..."
+- "mencerminkan dedikasi..."
+- "menegaskan posisinya sebagai..."
+- "menjadi angin segar bagi industri..."
+- "memainkan peran krusial/vital/penting dalam..."
+- "meninggalkan jejak yang tak terhapuskan"
+- "tak lekang oleh waktu"
+
+**Ganti dengan:** kejadiannya saja. "Kantor cabang kedua dibuka di Surabaya bulan Mei" tidak butuh embel-embel "menandai babak baru ekspansi perusahaan". Kalau peristiwa itu memang penting, tunjukkan lewat akibatnya, bukan lewat labelnya.
 
 ## Menyatakan Alih-Alih Menunjukkan
 

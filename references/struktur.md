@@ -44,6 +44,8 @@ Penggalan kalimat demi efek terbaca sebagai kedalaman buatan.
 
 **Ganti dengan:** kalimat utuh. Percayai isi, bukan kemasan.
 
+**Catatan:** satu kalimat pendek untuk menekankan poin itu sah dan sering ampuh. Yang slop adalah rentetannya: penggalan demi penggalan yang memompa drama sampai semua kalimat terasa seperti punchline.
+
 ## Setup Retoris
 
 Mengumumkan wawasan, bukan menyampaikannya.
@@ -136,6 +138,39 @@ Satu-dua konektor tidak masalah. Slopnya: setiap paragraf dibuka konektor sampai
 | Penguat kosong ("sangat", "benar-benar", "secara signifikan") | Penekanan hampa. Daftar lengkap di [frasa.md](frasa.md). |
 | "berbagai" / "beragam" / "sejumlah" tanpa rincian | Kabur. Sebutkan berapa dan apa saja. |
 
+## Rentang Palsu
+
+Konstruksi "dari X hingga Y" yang tidak menunjuk skala nyata. Terdengar luas, isinya kabur.
+
+| Pola | Masalah |
+|------|---------|
+| "mulai dari kesehatan fisik hingga kedamaian batin" | X dan Y bukan dua ujung skala apa pun. |
+| "dari pemula hingga profesional" (lalu isinya tidak melayani keduanya) | Janji cakupan, bukan cakupan. |
+| "mulai dari A hingga Z" | Klaim kelengkapan tanpa daftar. |
+| "dari urusan kecil hingga keputusan besar" | Pengisi yang menghindari contoh. |
+
+Rentang sah kalau skalanya nyata dan terukur: "dari Rp50 ribu hingga Rp2 juta", "dari 2019 hingga 2024". **Ganti yang palsu dengan:** daftar sebenarnya, atau satu klaim spesifik.
+
+## Sinonim Bergilir
+
+Satu rujukan dipanggil dengan nama berbeda di tiap kalimat karena takut mengulang kata: "pengguna... para pemakai... konsumen... masyarakat digital". Pembaca dipaksa menebak apakah keempatnya benda yang sama.
+
+Mengulang kata yang sama itu wajar. Tulis "pengguna" lima kali kalau memang pengguna yang dibahas. Ganti sebutan hanya saat rujukannya memang berganti.
+
+## Formula Aforisme
+
+Klaim biasa dikemas jadi kutipan bijak. Terdengar dalam, presisinya nol. Ini versi terstruktur dari "kalimat pajangan" di aturan #9 SKILL.md.
+
+| Pola | Masalah |
+|------|---------|
+| "X adalah mata uang Y" ("perhatian adalah mata uang era digital") | Metafora templat. |
+| "X bukan sekadar alat, melainkan cermin" | Pivot bukan-melainkan berbaju filsafat. |
+| "X adalah bahasa dari Y" / "arsitektur dari Y" | Sama. |
+| "X menjadi jebakan ketika..." | Formula kebijaksanaan instan. |
+| "Pada akhirnya, semuanya bermuara pada X" | Penyederhanaan malas. |
+
+**Ganti dengan:** klaim konkret yang sedang disamarkan formula itu. "Tata letak simetris lebih mudah dipindai pembaca" mengalahkan "simetri adalah bahasa kepercayaan".
+
 ## Heading Formulaik
 
 Judul yang mengikuti template yang bisa ditebak. Ciri artikel SEO dan blog AI.
@@ -162,6 +197,18 @@ Teks yang setiap 1-2 paragraf diberi heading baru. Heading harus menandai peruba
 - Heading di setiap sub-bagian yang sebenarnya tidak punya sub-bagian
 
 **Ganti dengan:** paragraf mengalir. Pakai heading hanya saat topik bergeser. Kalau sebuah bagian hanya punya satu paragraf, biasanya tidak butuh heading.
+
+## Heading + Kalimat Pemanas
+
+Heading diikuti satu kalimat yang cuma mengulang heading sebelum isi sebenarnya dimulai.
+
+> ## Keamanan Data
+>
+> Keamanan data sangatlah penting.
+>
+> Sejak 2023, semua data pelanggan dienkripsi...
+
+Hapus kalimat pemanasnya. Isi dimulai langsung setelah heading; "Keamanan data sangatlah penting" tidak memberi tahu apa pun yang belum dikatakan headingnya.
 
 ## Daftar Bullet Berlebihan
 
